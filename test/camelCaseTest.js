@@ -1,5 +1,6 @@
 /*globals describe */
 
+global.Promise = require('bluebird')
 var test = require("./helpers").test;
 
 describe("camelCase", function() {
